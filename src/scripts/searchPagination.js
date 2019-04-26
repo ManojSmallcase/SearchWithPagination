@@ -50,5 +50,10 @@ export const doPaginationSearch = async (isNewSearch = false) => {
   const showLoadMore = true;
   searchData = newData;
 
+  /**
+   * showSearchResults - update the UI with new search result
+   * searchData - Array of search result. 
+   * showLoadMore - Boolean to show (true) or hide (false) the load more button.
+   */
   showSearchResults(searchData, showLoadMore, searchFor);
 };
