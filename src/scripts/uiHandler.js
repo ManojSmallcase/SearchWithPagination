@@ -6,7 +6,7 @@ function addLoadMoreBtn(parentNode) {
   parentNode.appendChild(btn);
 }
 
-export const showSearchResults = (stringList = [], showLoadBtn = false, searchFor ='') => {
+export const updateSearchResults = (stringList = [], showLoadBtn = false, searchFor ='') => {
   let ul = document.getElementById("list");
   ul.innerHTML = "";
   stringList.forEach(string => {

@@ -14,12 +14,6 @@ npm install
 npm start
 ```
 
-### Build Prod Version
-
-```
-npm run build
-```
-
 ### Features:
 
 * ES6 Support via [babel](https://babeljs.io/) (v7)

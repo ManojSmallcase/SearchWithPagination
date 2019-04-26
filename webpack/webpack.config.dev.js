@@ -16,7 +16,7 @@ module.exports = merge(common, {
   plugins: [
     new Webpack.DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify('development'),
-      'searchLatency': JSON.stringify(1000),
+      'API_ENDPOINT': JSON.stringify('https://search-word-api.herokuapp.com'),
     })
   ],
   module: {
